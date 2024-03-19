@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(206, 227, 245);
+}
+
+#todo{
+    width: 40%;
+    height: auto;
+
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+#superior{
+    background-color: white;
+    height: auto;
+
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ 
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#inferior{
+    height: auto;
+
+    display: flex;
+}
+
+#direito{
+    background-color: #008B8B;
+    width: 50%;
+    height: auto;
+
+    padding-bottom: 20px;
+
+    padding-left: 25px;
+
+    color: white;
+
+    border-bottom-right-radius: 7px;
+}
+
+#esquerdo{
+    background-color: #008080;
+    width: 50%;
+    height: auto;
+
+    padding-left: 25px;
+
+    color: white;
+
+    padding-bottom: 20px;
+
+    border-bottom-left-radius: 7px;
+}
+
+.branco{
+    color: white;
+}
+
+.ciano{
+    color: rgb(56,161,161);
+}
+
+.cinza{
+    color: rgb(141,135,135);
+}
+
+.cinzaClaro{
+    color: rgb(196, 196, 196);
+}
+
+.verde{
+    color: rgb(189,230,25);
+}
+
+.valor{
+    font-size: 25px;
+}
+
+#esquerdo button{
+    background-color: rgb(189,230,25);
+    color: white;
+    width: 80%;
+
+    border: none;
+    border-radius: 3px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#direito ul{
+    list-style-type: none;
+
+    padding-left: 0px;
+}
+
+#direito li{
+    font-size: small;
+}
